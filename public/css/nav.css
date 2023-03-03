@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #001D6E;
+  }
+ .navbar-brand{
+    color: white;
+ }
+ .navbar-nav .nav-link {
+   padding: 5px;
+    color: white;
+}
+
+.logoutBtn{
+    background: transparent;
+    border: none;
+    color: white;
+    margin-top: 4px;
+}
+.navbar-toggler-icon{
+    color: white;
+    border: none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 700px) {
+    .column {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

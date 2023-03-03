@@ -1,0 +1,160 @@
+.body_bg{
+    background-color: #7FB5FF;
+  }
+  
+/* section one */
+
+#one{
+  text-align: center;
+  font-size: 2rem;
+}
+.jumbotron{
+  padding: 4rem 2rem;
+}
+
+/* testimonials section */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+}
+.row{
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.testimonial-image{
+  width: 60%;
+}
+.testimonial-headig{
+  text-align: center;
+  margin-top: 20px;
+  line-height: 20px;
+  
+}
+.testimonial-headig h3{
+  margin-top: 20px;
+  color: black;
+}
+.estkhar{
+  width: 30%;
+  border-radius: 50%;
+  border: 5px solid gray;
+  box-shadow: 1px 1px 10px 0px rgba(0,0,0,.5);
+
+}
+
+  /* Three */
+#three{
+  /* background: url("images/p2.jpg"); */
+  background-color: #7FB5FF;
+  text-align: center;
+  text-align: justify ;
+  text-justify: inter-word;
+  padding: 6rem;
+}
+.iconBtn{
+  text-align: center;
+}
+.three-icon{
+  margin:20px;
+}
+
+.form{
+  margin-top: 30px;
+}
+
+.topDiv {
+  text-align: center;
+}
+
+.image{
+    width: 50%; 
+    padding: 5px;
+  }
+.btn:hover{
+    box-shadow: 0 5px 5px  gray;
+  }
+
+  #four{
+    background-color: white;
+    text-align: center;
+    text-align: justify ;
+    text-justify: inter-word;
+    padding: 3.5rem;
+  }
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h3{
+  font-family: "Montserrat:wght@600";
+}
+.display-4{
+  font-family: "cursive";
+}
+
+/* #four{
+ margin-left: 8rem;
+ margin-top: 2rem;
+} */
+
+.card{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+
+}
+
+.col-lg-4{
+  padding: 2rem;
+}
+
+.open{
+  background-color: #001D6E;
+}
+
+.four-heading{
+margin-top: 4%;
+text-align: center;
+}
+
+.four-p{
+  text-align: center;
+}
+
+/* section five */
+#last-footer{
+  /* background-image: url("images/p3.jpg"); */
+  background-color: #7FB5FF;
+  padding: 30px;
+}
+.footer-details{
+   margin: 20px 10px 10px;
+   text-align: justify;
+   padding: 10px 15px ;
+}
+
+footer{
+  text-align: center;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+footer p{
+  margin: 0;
+}
+@media screen and (max-width: 700px) {
+  .column {
+    display: block;
+    margin-bottom: 20px;
+  }
+}

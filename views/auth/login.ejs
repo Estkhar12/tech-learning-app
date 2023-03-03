@@ -1,0 +1,23 @@
+<%- include('../includes/head.ejs') %>
+<%- include('../includes/nav.ejs') %>
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+  <div class="form">
+    <form action="/login" class="form-signin" method="POST">
+      <div class="topDiv">
+        <img class="mb-4" src="images/image1.jpg" alt="images" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Login Here!</h1>
+      </div>
+        
+        <input type="email" name="email" class="form-control last-bottom" placeholder="Email" required>
+        <input type="password" name="password" class="form-control middle" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Login Me Up!</button>
+        <p class="mt-5 mb-3 text-muted">Copyright &copy; Estkhar Ansari 2021</p>
+      </form>
+
+  </div>
+
+<%- include('../includes/end.ejs') %>
